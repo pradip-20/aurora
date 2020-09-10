@@ -1,0 +1,58 @@
+URL for Adding and Viewing Sow Details:
+
+Adding Sow Details:
+Url--->http://localhost:8000/api/citi-portal/addDetails
+JSON Request--->
+{   
+    "tenure":5,
+    "area":"Tech",
+    "businessUnit":"IM Shared Service - NAM",
+    "citiLegalEntity":"Citigroup Technology Inc",
+    "citiProjectManager":"Hari",
+    "citiProjectManagerEmailId":"hari@citi.com",
+    "citiSowOwnerName":"carolyn",
+    "citiSowOwnerEmailId":"carolyn@citi.com",
+    "contractName":"Institutional client",
+    "contractType":"contract",
+    "geography":"NAM",
+    "sector":"ACG",
+    "serviceType":"service",
+    "sourceData":"FG-SOW",
+    "sowExecutingLocation":"India",
+    "sowId":"T18078",
+    "status":"InActive",
+    "virtusaDDEmailId":"dd@virtusa.com",
+    "virtusaDDName": "DD",
+    "virtusaPDEmailId":"pd@virtusa.com",
+    "virtusaPDName":"PD",
+    "virtusaPMEmailId":"pm@virtusa.com",
+    "virtusaPMName":"PM",
+    "virtusaSegmentDeliveryHead":"AMER BFS CITI TTS",	
+    "signedEffectiveDate":"2014-05-20",
+    "commencementDate":"2015-03-19",
+    "expiryDate":"2012-08-16"
+    
+}
+
+Viewing All Sow Details:
+Url---> http://localhost:8000/api/citi-portal/getDetails
+
+
+Update Single Sow Details:
+Url---> http://localhost:8000/api/citi-portal/updateDetails
+
+
+Update Multiple Sow Details:
+Url---> http://localhost:8000/api/citi-portal/updateBulkDetails
+                                              
+
+
+
+Viewing Sow Details Based on sowId:
+Url---> http://localhost:8000/api/citi-portal/getDetailsByID/T18077
+
+Viewing Sow Details Based on Sector:
+Url---> http://localhost:8000/api/citi-portal/getDetailsByStatus/Active
+
+Viewing Sow Details Based on Status:
+Url---> http://localhost:8000/api/citi-portal/getDetailsBySector/ACG
