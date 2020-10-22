@@ -1,0 +1,58 @@
+Post -> http://localhost:8087/api/citi-portal/project-details
+Get-> http://localhost:8087/api/citi-portal/project-details
+Put->http://localhost:8087/api/citi-portal/project-details
+Delete->http://localhost:8087/api/citi-portal/project-details
+
+
+{
+"auroraProjectSeq":1,
+"velocityProjectCode":101,
+"projectName":"Citi TTS stars 11",
+"auroraSegmentSeqfk":121,
+"projectStatus":"open",
+"resourcesCurrentlyAllocated":"Y",
+"velocityStartDate":"2012-08-16",
+"velocityEndDate":"2012-08-16",
+"virtusaSegmentDeliveryHead":"Sundar Pichai",
+"virtusaDDName":"fatima aliyar",
+"virtusaDDEmailId":"fatima@virtusa.com",
+"virtusaPDName":"RakeshBabu",
+"virtusaPDEmailId":"rakesgbabu@virusa.com",
+"virtusaPMName":"fasima ali",
+"virtusaPMEmailId":"fasimaali@virtusa.com",
+"itCluster":"vdi",
+"auroraServiceTypeVSeqfk":121,
+"auroraDeliveryCenterSeqfk":121,
+"pricingConstructCodefk":121,
+"totalHc":30,
+"hcOn":20,
+"hcOff":10,
+"recoveryTimeObjective":"not applicable",
+"auroraProgramSeqfk":121,
+"auroraSOWSeqfk":121,
+"engagementPlanApplicability":"yes Ep availabe",
+"engagementPlanExemptionReason":"Cost",
+"slaApplicability":"y",
+"kpiApplicability":"y",
+"keyPersonnelIncludingPM":2,
+"projectLifeCycle":"ADM",
+"projectApplicabilitySecureSDLC":"N",
+"projectMobileDevelopmentComponent":"Y",
+"releaseNotesApplicability":"Yes",
+"selfAssessmentApplicability":"Yes",
+"governanceReportApplicability":"yes",
+"governanceReportFrequency":"monthly",
+"gdpr":"notKnown",
+"remarks":"good",
+"highestConfidentiality":"notApllicable",
+"createdDate":"2012-08-16",
+"createdBy":"raghu thayagaraju",
+"modifiedDate":"2012-08-16",
+"modifiedBy":"B Koshyari"
+}			
+		
+
+	
+	
+	
+	
